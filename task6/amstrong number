@@ -1,0 +1,12 @@
+Pseudo Code
+step1 Start
+step2 Declare variable result, temp, num, r
+step3 Read num from User
+step4 Initialize temp=num
+step5 Repeat until num>0
+    5.1 Initialize r=num%10, result=result+(r^3) and num=num/10
+step6 IF result==temp
+            Print "Amstrong NUmber"
+      ELSE
+          Print"Not a Amstrong Number"
+step7 Stop
